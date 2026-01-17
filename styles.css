@@ -31,13 +31,12 @@ nav {
     cursor: pointer;             /* pointer cursor on hover */
     border: none;                /* remove default border */
     transition: background-color 0.2s ease; /* smooth transition for hover effect */
-    transition: border 0.2s ease;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* button font */
+    border-radius: 10px; /* rounded corners */
 }
 
 .btn:hover {
     background-color: #e2e1e1;  /* hover background color */
-    border: #000000 1.5px solid;  /* hover border */
 }
 
 .logo {
