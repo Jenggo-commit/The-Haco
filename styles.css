@@ -9,11 +9,14 @@ body {
 
 nav {
     height: 75px;             /* fixed height for the navbar */
-    box-shadow: #131313 0px 0px 15px 5px ;  /* subtle shadow for depth */
+    background-color: #f0f0f0; /* light background color */
+    border-bottom: 2px solid #363636; /* bottom border */
+    box-shadow: 0px 0px 15px 5px black;  /* subtle shadow for depth */
     display: flex;       /* use flexbox for layout */
     align-items: center;  /* vertically center items */
     overflow-x: hidden;  /* prevent horizontal overflow */
     padding: 0 20px; /* horizontal padding for some space */
+    border-radius: 0 0 10px 10px; /* rounded bottom corners */
 }
 
 .nav-buttons {
@@ -54,6 +57,8 @@ nav {
     letter-spacing: 2px;  /* letter spacing for readability */
     border: black .5px solid; /* border style */
     box-shadow: #131313 0px 0px 15px 5px; /* shadow for depth */
+    border-radius: 0 10px 0 10px; /* rounded corners */
+    padding: 10px; /* padding inside the box */
 }
 
 .site-footer {
